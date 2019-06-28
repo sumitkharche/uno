@@ -2497,6 +2497,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml\Clip\ButtonWithClippingAndOffset.xaml.cs">
       <DependentUpon>ButtonWithClippingAndOffset.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Input\GestureRecognizerTests\PointersEvents.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml\Clip\ButtonClippingTestsControl.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml\Clip\ButtonWithClippingAndOffset.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml\DeferLoadStrategy\DeferLoadStrategyViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml\DeferLoadStrategy\DeferLoadStrategyWithTemplateBinding.xaml.cs">
       <DependentUpon>DeferLoadStrategyWithTemplateBinding.xaml</DependentUpon>
@@ -4453,6 +4456,15 @@
     </Compile>
     <Compile Update="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\DatePicker\DatePickerFlyout_Automated.xaml.cs">
       <DependentUpon>DatePickerFlyout_Automated.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Src\GitHub\nventive\Uno\src\SamplesApp\UITests.Shared\Windows_UI_Input\GestureRecognizerTests\PointersEvents.xaml.cs">
+      <DependentUpon>PointersEvents.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Src\GitHub\nventive\Uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml\Clip\ButtonClippingTestsControl.xaml.cs">
+      <DependentUpon>ButtonClippingTestsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Src\GitHub\nventive\Uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml\Clip\ButtonWithClippingAndOffset.xaml.cs">
+      <DependentUpon>ButtonWithClippingAndOffset.xaml</DependentUpon>
     </Compile>
     <Compile Update="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\ToolTip\ShowPathToRootControl.xaml.cs">
       <DependentUpon>ShowPathToRootControl.xaml</DependentUpon>
