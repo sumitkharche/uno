@@ -1,6 +1,6 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
-next-version: 1.46.0
+next-version: 1.47.0
 continuous-delivery-fallback-tag: ""
 tag-prefix: 'version-tags-are-disabled'
 
@@ -8,7 +8,7 @@ branches:
   master:
     regex: master
     tag: dev
-    increment: patch
+    increment: none
   beta:
     regex: release/beta/
     tag: beta
